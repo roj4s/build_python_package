@@ -6,4 +6,4 @@
  - Build your package `python setup.py bdist_wheel`. It will create a `dist` folder with your built package.
  - Create a `~/.pypirc` file with your pypi repo data (use the one provided in this repos as template)
  - Upload your package with `python -m twine upload dist/*`
-
+ - Test if all went well `pip install yourpackage`
